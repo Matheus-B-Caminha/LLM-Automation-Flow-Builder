@@ -1,0 +1,5 @@
+{
+  "name": "LLM Automation Flow Builder",
+  "description": "A visual editor for creating, configuring, and exporting JSON flows for the LLM Automation System.",
+  "requestFramePermissions": []
+}
