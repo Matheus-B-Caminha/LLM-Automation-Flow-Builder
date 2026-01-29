@@ -1,5 +1,5 @@
 import { Node, Edge, MarkerType } from 'reactflow';
-import { FlowJson, FlowNodeData, StepType, TimeGrain, TimeMode } from '../types';
+import { FlowJson, FlowNodeData, StepType, TimeGrain, TimeMode } from '../src/types';
 
 export const generateFlowJson = (
   nodes: Node<FlowNodeData>[],
