@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Plus, Trash2, Mail } from 'lucide-react';
-import { DeliveryConfig } from '../src/types';
+import { DeliveryConfig } from '../types';
 
 interface DeliveryModalProps {
   isOpen: boolean;

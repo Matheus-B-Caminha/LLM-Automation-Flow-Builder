@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Handle, Position, NodeProps } from 'reactflow';
 import { Database, Bot, FileText, Play, AlertCircle } from 'lucide-react';
-import { StepType, FlowNodeData } from '../src/types';
+import { StepType, FlowNodeData } from '../types';
 
 const CustomNode = ({ data, selected }: NodeProps<FlowNodeData>) => {
   const isStart = data.isStartNode;
