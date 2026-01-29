@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LLM Flow Builder</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reactflow@11.10.1/dist/style.css" />
+    
     <style>
       /* Minimal override for ReactFlow to work nicely with Tailwind dark mode if needed */
       .react-flow__node {
@@ -28,19 +31,11 @@
         stroke-width: 3px !important;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "reactflow": "https://esm.sh/reactflow@^11.11.4"
-  }
-}
-</script>
-</head>
+  </head>
+  
   <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
+    
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
