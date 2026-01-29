@@ -15,7 +15,7 @@ import { Play, Plus, Trash2, Download, Unplug, AlertTriangle, CheckCircle, Alert
 import CustomNode from './components/CustomNode';
 import Sidebar from './components/Sidebar';
 import JsonPreview from './components/JsonPreview';
-import { generateFlowJson, restoreFlowFromJson } from './utils/flowUtils';
+import { generateFlowJson, restoreFlowFromJson } from '../utils/flowUtils';
 import { FlowNodeData, StepType } from './types';
 import { INITIAL_FLOW_NAME } from './constants';
 
