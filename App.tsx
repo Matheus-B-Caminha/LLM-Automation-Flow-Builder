@@ -10,6 +10,7 @@ import ReactFlow, {
   useEdgesState,
   MarkerType,
 } from 'reactflow';
+import 'reactflow/dist/style.css';
 import { Play, Plus, Trash2, Download, Unplug, AlertTriangle, CheckCircle, AlertCircle, Upload } from 'lucide-react';
 import CustomNode from './components/CustomNode';
 import Sidebar from './components/Sidebar';
